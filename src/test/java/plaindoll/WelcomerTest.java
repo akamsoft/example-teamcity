@@ -25,11 +25,15 @@ public class WelcomerTest {
 		assertThat(welcomer.sayFarewell(), containsString("hunter"));
 	}
 	@Test
-	public void welcomerSaysSilver(){
+	public void welcomerSaysSilver() {
 		assertThat(welcomer.sayNeedGold(), containsString("gold"));
 	}
 	@Test
-	public void welcomerSaysSomething(){
+	public void welcomerSaysSomething() {
 		assertThat(welcomer.saySome(), containsString("something"));
 	}
+        @Test
+        public void testReplyContainsHunter() {
+                assertTrue(welcomer.reply().contains("hunter"));
+        }
 }
