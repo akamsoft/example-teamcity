@@ -1,0 +1,13 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0
+                              https://maven.apache.org/xsd/settings-1.1.0.xsd">
+  <servers>
+    <server>
+      <!-- Этот ID должен в точности совпадать с ID в вашем pom.xml -->
+      <id>nexus</id>
+      <username>admin</username>
+      <password>miqC%$YS</password>
+    </server>
+  </servers>
+</settings>
